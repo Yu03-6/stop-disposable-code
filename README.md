@@ -1,5 +1,7 @@
 # Stop Disposable Code
 
+English | [简体中文](README.zh-CN.md)
+
 A Codex skill for maintaining and extending AI-assisted codebases without accumulating duplicate rules, speculative patches, and undocumented behavior.
 
 **Clarify the intended change first. Check maintainability before editing. Verify the result before finishing.**
@@ -80,7 +82,8 @@ stop-disposable-code/
 ├── SKILL.md             # Maintainability and clarification workflow
 ├── agents/
 │   └── openai.yaml      # Display metadata and automatic-selection policy
-└── README.md            # Overview, installation, and usage
+├── README.md            # English overview, installation, and usage
+└── README.zh-CN.md      # Chinese overview, installation, and usage
 ```
 
 The skill is self-contained and requires no custom scripts or additional tools. Its implementation and verification steps use the project's existing tools.
