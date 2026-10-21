@@ -1,0 +1,6 @@
+interface:
+  display_name: "Stop Disposable Code"
+  short_description: "Clarify intent and check maintainability before coding"
+  default_prompt: "Use $stop-disposable-code to ask me about any unclear requirements, check the five maintainability habits, and implement only after the intended change is clear."
+policy:
+  allow_implicit_invocation: true
